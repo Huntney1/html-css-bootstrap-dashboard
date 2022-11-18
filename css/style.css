@@ -37,5 +37,6 @@ aside{
     position: fixed;
     top: 59px;
     left: 112px;
+    display: flex;
 
 }
