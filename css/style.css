@@ -35,10 +35,10 @@ aside{
     height: 100%;
     background-color: red;
     position: fixed;
-    top: 59px;
-    left: 112px;
+    top: 3.680em;
+    left: 7.031em;
     display: flex;
-
+overflow-y: auto;
 }
 
 table img {
