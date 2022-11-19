@@ -4,26 +4,31 @@
     box-sizing: border-box;
 }
 
-header {
+/* header {
     width: 100%;
     height: 10%;
-    background-color: rgba(27,114,232,255);
+    background-color: rgba(27, 114, 232, 255);
     position: fixed;
     top: 0;
     left: 0;
 
+} */
+
+.container-main{
+    width: 100%;
+    height: 100vh;
 }
 
-main{
-    width: 100vw;
+main {
+    width: 100%;
     height: 100%;
     display: flex;
 }
 
-aside{
+aside {
     width: 7rem;
     height: 100%;
-    background-color:rgba(5,30,52,255);
+    background-color: rgba(5, 30, 52, 255);
     position: fixed;
     top: 0;
     left: 0;
@@ -31,19 +36,26 @@ aside{
 }
 
 #main {
-    width: 100vw;
+    width: 86%;
     height: 100%;
     background-color: red;
     position: fixed;
-    top: 3.680em;
+    top: 3.580em;
     left: 7.031em;
     display: flex;
-overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
 }
 
 table img {
     width: 24px;
 }
+
+/* .Measurements {
+    height: 100%;
+} */
+
 
 /* .padding-left {
 
