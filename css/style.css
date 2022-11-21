@@ -25,23 +25,24 @@ header {
 
 main {
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 75px);
     display: flex;
 }
 
 #sidebar {
     width: 7rem;
-    height: 86%;
+    height: calc(100vh - 75px);
     background-color: rgba(5, 30, 52, 255);
+    text-align: center;
     position: fixed;
-    top: 56px;
+    top: 70px;
     left: 0;
 
 }
 
 #main {
-    width: 86%;
-    height: 74%;
+    width: calc(100vw - 7rem);
+    height: 75%;
     background-color: red;
     position: fixed;
     top: 4.3em;
