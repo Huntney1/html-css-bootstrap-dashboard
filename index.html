@@ -20,12 +20,46 @@
 </head>
 
 <body>
-    <header>
+    <header class="d-flex align-items-center">
         <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-md bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar-fluid navbar-expand-md bg-white text-uppercase fixed-top" id="mainNav">
+            <div class="row">
+                <div class="col-2">
+                    <!-- LOGO DESKTOP -->
+                    <img class="p-2 img-fluid d-none d-lg-block" src="./assets/img/logo.svg" alt="logo desktop">
+
+                    <!-- LOGO MOBILE -->
+                    <img id="height-logo" class="my-1 img-fluid d-mb d-lg-none" src="./assets/img/mobile-logo.png" alt="logo mobile">
+                </div>
+                <div class="col-8">
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" class="search-bar-input" placeholder="Prova a cercare: Lezioni di Laravel">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <nav class="header-menu">
+                        <ul class="header-menu-list">
+                            <li><i class="fa-solid fa-list"></i></li><a href="#" class="dropdown-item"></a>
+                            <li><i class="fa-solid fa-circle-question"></i></li>
+                            <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                            <li><i class="fa-solid fa-bell"></i></li>
+                        </ul>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Action</a></li>
+                            <li><a href="#" class="dropdown-item">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a href="#" class="dropdown-item">Something else here</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 
             <div class="container">
                 <a class="navbar-brand" href="#page-top">Boolean 5</a>
-                <!-- search bar -->
                 <nav class="navbar navbar-light">
                     <form class="form-inline">
                         <div class="input-group">
@@ -36,7 +70,7 @@
                                 aria-describedby="basic-addon1">
                         </div>
                     </form>
-                </nav>
+                
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
                     type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -135,23 +169,10 @@
                             </ul>
                         </li>
 
-                    </ul>
+                    </ul>-->
 
 
 
-                    <!-- <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                href="#contact">Contact</a></li>
-                    </ul> -->
-                </div>
-            </div>
-        </nav>
-
-    </header>
 
 
     <main>
