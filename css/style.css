@@ -6,7 +6,7 @@
 
 header {
     height: 3.5rem;
-     background-color: blue;
+     /* background-color: blue; */
  
 }
 
@@ -30,7 +30,7 @@ header {
     border-radius: 20px;
     padding: 11px;
     background-color: rgb(215, 215, 215);
-    margin: 2em -5% 1% -11%;
+    margin: 8% -5% 0% -11%;
 }
 
 
@@ -80,7 +80,7 @@ main {
 
 aside{
     background-color: aqua;
-    height: 100%;
+    height: 33.1em;
     width: 50px;
 
 }
@@ -94,14 +94,11 @@ aside{
 
 
 #main {
-    width: calc(100vw - 7rem);
+    width: calc(100vw - 3.5rem);
     height: 100%;
-   /*  background-color: red; */
-    /* position:absolute;
-    top: 4.3em;
-    left: 7.031em; */
+    /* background-color: red; */
     display: flex;
-    justify-content:center;
+    justify-content: center;
     overflow-y: auto;
 }
 
@@ -120,7 +117,7 @@ table img {
     }
 
     .search-bar{
-        margin: 0;
+        margin: 0% -5% 0% -4%;
     }
 
     
